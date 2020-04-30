@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 const Details = ({ name, image, occupation, status, description, portrayedBy }) => (
   <>
     <h3>{name}</h3>
-    <img src={image} />
-    <h4>Occupation: {occupation}</h4>
-    <h4>Status: {status}</h4>
-    <p>Description: {description}</p>
-    <p>Portrayed By: {portrayedBy}</p>
+    {image && <img src={image} />}
+    {occupation && <h4>Occupation: {occupation}</h4>}
+    {status && <h4>Status: {status}</h4>}
+    {description && <p>Description: {description}</p>}
+    {portrayedBy && <p>Portrayed By: {portrayedBy}</p>}
   </>
 );
 
@@ -19,7 +19,6 @@ Details.propTypes = {
   status: PropTypes.string,
   description: PropTypes.string,
   portrayedBy: PropTypes.string
-
 };
 
 export default Details;

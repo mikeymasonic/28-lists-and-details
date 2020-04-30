@@ -22,5 +22,3 @@ Details.propTypes = {
 };
 
 export default Details;
-
-

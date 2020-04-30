@@ -16,7 +16,6 @@ List.propTypes = {
   occupation: PropTypes.string,
   status: PropTypes.string,
   image: PropTypes.string,
-
 };
 
 export default List;

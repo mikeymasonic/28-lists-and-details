@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Details component renders Details 1`] = `
+<Fragment>
+  <h3>
+    Dana Scully
+  </h3>
+  <img
+    src="https://vignette.wikia.nocookie.net/x-files/images/3/31/TXF_Scully.jpg/revision/latest/scale-to-width-down/310?cb=20171214040235"
+  />
+  <h4>
+    FBI Agent
+  </h4>
+  <h4>
+    Alive
+  </h4>
+  <p>
+    Dana Katherine Scully (Played by Gillian Anderson) is an FBI Special Agent and medical doctor with a background in hard science who brought her scientific expertise and perspective to the X-files.
+  </p>
+  <p>
+    Gillian Anderson
+  </p>
+</Fragment>
+`;

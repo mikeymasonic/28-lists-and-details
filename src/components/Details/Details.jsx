@@ -9,7 +9,6 @@ const Details = ({ name, image, occupation, status, description, portrayedBy }) 
     <h4>{status}</h4>
     <p>{description}</p>
     <p>{portrayedBy}</p>
-
   </>
 );
 

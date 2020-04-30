@@ -3,12 +3,12 @@ import Details from '../../components/Details/Details';
 import { fetchDetail } from '../../services/xFilesAPI.js';
 import { useParams } from 'react-router-dom';
 
-const CharacterInfo = () => {
+const CharacterDetail = () => {
   const [character, setCharacter] = useState({});
-  let { id } = useParams();
+  let { name } = useParams();
 
   useEffect(() => {
-    fetchDetail(id)
+    fetchDetail(name)
       .then(character => setCharacter(character));
   }, []);
 
@@ -19,4 +19,4 @@ const CharacterInfo = () => {
   );
 };
 
-export default CharacterInfo;
+export default CharacterDetail;

@@ -11,7 +11,7 @@ const CharacterList = () => {
   useEffect(() => {
     fetchList(page)
       .then(apiCharacters => setCharacters(apiCharacters));
-  }, []);
+  }, [page]);
 
   const characterNodes = characters.map(character => {
     return <List key={character.name} {...character} />;

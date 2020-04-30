@@ -14,7 +14,7 @@ const CharacterDetail = () => {
 
   return (
     <>
-      <Details {...character[0]} />
+      <Details {...character} />
     </>
   );
 };

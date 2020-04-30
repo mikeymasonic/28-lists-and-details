@@ -2,10 +2,23 @@ export const fetchList = (page) => {
   return fetch(`https://xfiles-api.herokuapp.com/api/v1/characters?perPage=20&page=${page}`)
     .then(res => res.json())
     .then(json => ({
-      name: json.login,
-      occupation: json.followers,
-      status: json.following,
+      name: json.name,
+      occupation: json.occupation,
+      status: json.status,
       image: json.avatar_url
+    }));
+};
+
+export const fetchDetail = (name) => {
+  return fetch(`https://xfiles-api.herokuapp.com/api/v1/characters/${name}`)
+    .then(res => res.json())
+    .then(json => ({
+      name: json.name,
+      occupation: json.occupation,
+      status: json.status,
+      image: json.avatar_url,
+      description: json.description,
+      portrayedBy: json.portrayedby
     }));
 };
 

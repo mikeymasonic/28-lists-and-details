@@ -1,24 +1,24 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`List component renders List 1`] = `
-<ul
-  key="Fox Mulder"
->
-  <li>
+<section>
+  <p>
     <Link
       to="detail/Fox Mulder"
     >
       Fox Mulder
     </Link>
-  </li>
-  <li>
+  </p>
+  <p>
+    Occupation: 
     FBI Agent
-  </li>
-  <li>
+  </p>
+  <p>
+    Status: 
     Alive
-  </li>
+  </p>
   <img
     src="https://vignette.wikia.nocookie.net/x-files/images/c/c0/TXF_Mulder.jpg/revision/latest/scale-to-width-down/310?cb=20171214040226"
   />
-</ul>
+</section>
 `;

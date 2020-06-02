@@ -33,3 +33,14 @@ export const fetchList = (page) => {
 //       image: json.image
 //     }));
 // };
+
+// export const fetchCharacters = () => {
+//   return fetch('https://xfiles-api.herokuapp.com/api/v1/characters')
+//     .then(res => res.json())
+//     .then(json => json.results.map(character => ({
+//       name: character.name,
+//       image: character.image || 'https://www.placecage.com/c/200/300',
+//       occupation: character.occupation,
+//       description: character.description
+//     })));
+// };

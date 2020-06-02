@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List component renders List 1`] = `
+<section>
+  <p>
+    <Link
+      to="detail/Fox Mulder"
+    >
+      Fox Mulder
+    </Link>
+  </p>
+  <p>
+    Occupation: 
+    FBI Agent
+  </p>
+  <p>
+    Status: 
+    Alive
+  </p>
+  <img
+    src="https://vignette.wikia.nocookie.net/x-files/images/c/c0/TXF_Mulder.jpg/revision/latest/scale-to-width-down/310?cb=20171214040226"
+  />
+</section>
+`;
